@@ -1,3 +1,4 @@
 <?php
+echo "gw";
 
 phpinfo();
