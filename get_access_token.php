@@ -19,5 +19,5 @@ $output = curl_exec($ad);
 //释放curl句柄
 curl_close($ad);
 //写入获得的数据
-file_put_contents("./access_token.txt",$output);
-
+//file_put_contents("./access_token.txt",$output);
+print_r($output);
