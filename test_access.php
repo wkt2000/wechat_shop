@@ -7,5 +7,6 @@
  */
 $json = file_get_contents("./access_token.txt");
 echo $json;
-$array = json_decode($json);
+$array = json_decode($json,true);
+echo "<pre>";
 print_r($array);
