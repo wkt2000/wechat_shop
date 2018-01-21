@@ -1,0 +1,10 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: tail
+ * Date: 2018/1/21
+ * Time: 下午10:25
+ */
+$json = file_get_contents("./access_token.txt");
+$array = json_decode($json);
+print_r($array);
